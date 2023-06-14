@@ -11,36 +11,42 @@ export const Home = (props) => {
       title: "Create a Weather App with HTML, CSS, and JavaScript",
       author: "Ashutosh Tiwari",
       time: "April 14, 2023",
+      url: "/post",
     },
     2: {
       image: "https://source.unsplash.com/random/?space&2",
       title: "Create a Weather App with HTML, CSS, and JavaScript",
       author: "Ashutosh Tiwari",
       time: "April 14, 2023",
+      url: "/post",
     },
     3: {
       image: "https://source.unsplash.com/random/?hills&2",
       title: "Create a Weather App with HTML, CSS, and JavaScript",
       author: "Ashutosh Tiwari",
       time: "April 14, 2023",
+      url: "/post",
     },
     4: {
       image: "https://source.unsplash.com/random/?cars&2",
       title: "Create a Weather App with HTML, CSS, and JavaScript",
       author: "Ashutosh Tiwari",
       time: "April 14, 2023",
+      url: "/post",
     },
     5: {
       image: "https://source.unsplash.com/random/?ship&2",
       title: "Create a Weather App with HTML, CSS, and JavaScript",
       author: "Ashutosh Tiwari",
       time: "April 14, 2025",
+      url: "/post",
     },
     6: {
       image: "https://source.unsplash.com/random/?Cryptocurrency&2",
       title: "Create a Weather App with HTML, CSS, and JavaScript",
       author: "Ashutosh Tiwari",
       time: "April 14, 2023",
+      url: "/post",
     },
   };
   return (
@@ -52,7 +58,8 @@ export const Home = (props) => {
             {Object.values(featuredPostData).map((data, index) => {
               return (
                 <PostCard
-                  url={data.image}
+                  imgURL={data.image}
+                  url={data.url}
                   title={data.title}
                   author={data.author}
                   time={data.time}
@@ -69,33 +76,44 @@ export const Home = (props) => {
             <div className="title flex items-center dark:text-lightText mx-[1rem]">
               Read More <FaChevronRight />
             </div>
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
-            <HorizontalPostCard />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
+            <HorizontalPostCard url="/post" />
           </div>
           <Sidebar/>
         </div>

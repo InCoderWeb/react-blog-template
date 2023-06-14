@@ -4,12 +4,12 @@ export const PostCard = (props) => {
   return (
     <>
       <div className="postCard">
-        <a href="#" className="featuredInner">
+        <a href={props.url} className="featuredInner">
           <span className="imageWrap beforeMask">
             <span
               className="entryThumb"
               style={{
-                backgroundImage: `url(${props.url})`,
+                backgroundImage: `url(${props.imgURL})`,
               }}
             ></span>
           </span>

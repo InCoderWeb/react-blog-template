@@ -6,7 +6,7 @@ export const HorizontalPostCard = (props) => {
       <article className="indexPost">
         <a
           className="entryImageWrap"
-          href="https://incoderweb.blogspot.com/2023/05/tourist-agency-landing-page.html"
+          href={props.url}
           title="Step-by-Step Guide: Creating a Stunning Tourist Agency Landing Page with HTML and CSS"
         >
           <span
@@ -18,7 +18,7 @@ export const HorizontalPostCard = (props) => {
           <h2 className="entryTitle">
             <a
               className="entry-title-link hover:text-mainColor transition-colors"
-              href="https://incoderweb.blogspot.com/2023/05/tourist-agency-landing-page.html"
+              href={props.url}
               rel="bookmark"
               title="Step-by-Step Guide: Creating a Stunning Tourist Agency Landing Page with HTML and CSS"
             >
